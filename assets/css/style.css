@@ -1,13 +1,17 @@
+
+/*applying styles for entire page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*applying style to the body tag*/
 body {
     background-color: #d9dcd6;
 }
 
+/*style changes within the header section of the page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +28,7 @@ body {
     color: #d9dcd6;
 }
 
+/*style changes within the navigation section of the page*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +51,7 @@ a {
     text-decoration: none;
 }
 
+/*setting the background image for the hero of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +61,7 @@ a {
     background-position: center;
 }
 
+/* applying style formatting for the main content of the page */
 .content {
     width:75%;
     display: inline-block;
@@ -93,6 +100,7 @@ p {
     margin-left: 25px;
 }
 
+/* Applying style formating for the benefit section of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +128,7 @@ p {
     max-width: 150px;
 }
 
+/*style changes within the footer section of the page*/
 .footer {
     padding: 30px;
     clear: both;
